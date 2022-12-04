@@ -1,0 +1,38 @@
+_(title:Patricoin
+_(date:12/04/2022
+_(description:A token worth knowledge
+_(author:Ian Kilty
+_(tags:crypto, web dev
+_(points:[headers]
+_**Patricoin**_
+Patricoin is a _$https://eips.ethereum.org/EIPS/eip-777|ERC 777 token$_ that I designed to gain a further understading of crypto currencies and blockchain.
+The _$https://0xkilty.github.io/patricoin|patricoin website$_ show cases the token and creating the website gave me a chance to practice web development and learn how to interact with cryptocurrencies through powerful libraries such as _$https://docs.ethers.io/v5/|ethers.js$_. 
+_#
+_***ERC 777 token standard***_
+ERC20 is the standard tokens on the ethereum block chain need to be upheld to. The standard inclueds functions such as getting the balance of a certain address or the amount of the token in circulation. _$https://ethereum.org/en/developers/docs/standards/tokens/erc-20/#methods|All the methods can be viewed here$_.
+An _$https://eips.ethereum.org/EIPS/eip-777|ERC 777$_ token is a variation of the ERC20 token standard and is the standard that Patricoin follows. ERC777 tokens have a few more features such as hooks and is very similar to an ERC20 token. 
+_#
+_***Token Development***_
+I used _$https://hardhat.org/|hardhat$_ when developing Patricoin because it offers a variety of features such as a local blockchain for test deployments which is extremely helpful.
+Along with hardhat, one of the most helpful tools when developing a token is _$https://www.openzeppelin.com/|OpenZeppelin$_. OpenZeppelin makes it so much easier to create safe tokens in that it provides default functions that can be directly applied to your token. One of the main reasons to use openzeppelin is because it provides very safe code because of all the contributers to the project. There are some ways that tokens can be hacked such as a _$https://hackernoon.com/hack-solidity-reentrancy-attack|reentrancy attack$_ and openzeppelin ensures safety.
+You can view the solidity code on github _$https://github.com/0xKilty/patricoinContract|here$_.
+_#
+_***Deployment***_
+Patricoin is deployed on the _$https://goerli.net/|Goerli Testnet$_. A testnet is a blockchain very similar to the main net of a cryptocurrency and is to be used as a place to test smart contracts in the case of ethereum.
+You can view the final deployment of Patricoin on the testnet _$https://goerli.etherscan.io/token/0xb5e499390d8cef2a6a76158963205d8d18e71df7#code|here$_.
+I didn't want to deploy this token on the main net because that costs money and a lot if you want the token to be more useable which I didn't feel was necessary for this personal project.
+_#
+_***Building the Uniswap Pool***_
+The way I provided liquidity for patricoin is with _$https://uniswap.org/|Uniswap$_. Uniswap is a DEX or de-centralize exchange, in which people can provide liquidity for a token or crypto currency. Make sure you are connect to the Goerli testnet before view the pool for Patricoin if you would like to view it _$https://app.uniswap.org/#/pool/45776|here$_.
+_#
+_***Building the website***_
+I felt that it was a good opportunity to know more about how to interact with the token and practice my web development skills.
+You can view the website _$https://0xkilty.github.io/patricoin|here$_.
+I used _$https://docs.ethers.io/v5/|ethers.js$_ to add the features relating to Patricoin.
+In order to generate the graph on the from of the page, I used _$https://docs.uniswap.org/sdk/v3/overview|uniswap v3 sdk$_ to get the price of patricoin and github actions to update the chart every hour.
+_#
+_***Modivation and Conclusion***_
+The name Patricoin comes from a friend of mine named Patrick. 
+I think its imporant to have the expierence of doing something you know nothing about and learning as you go along, its one of the fastest ways to learn and can provide a huge depth of knowledge when you are doing something and find out that you are wrong, and the correct way to do it. 
+An example of this is how I chose to make an ERC777 token instead of a ERC20 token because although it would have been easier to make an ERC20 token, it was just a little more difficult to create an ERC777 token and now I have a better understanding of the different types of tokens than if I was to just create an ERC20 token. 
+Patricoin is not a very good token but it was a fun learning experience.
