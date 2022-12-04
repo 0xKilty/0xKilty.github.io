@@ -7,6 +7,14 @@
             "author": "Ian Kilty",
             "tags": "web dev, javascript",
             "points": "[headers]"
+        },
+        {
+            "title": "Patricoin",
+            "date": "12/04/2022",
+            "description": "A token worth knowledge",
+            "author": "Ian Kilty",
+            "tags": "crypto, web dev",
+            "points": "[headers]"
         }
     ]
 }
